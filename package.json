@@ -1,0 +1,29 @@
+{
+  "name": "rnd-str-msg",
+  "version": "1.0.0",
+  "description": "Random String Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindaNayeli104/rnd-str-msg.git"
+  },
+  "keywords": [],
+  "author": "Linda Abundis <linda_nayeli104@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LindaNayeli104/rnd-str-msg/issues"
+  },
+  "homepage": "https://github.com/LindaNayeli104/rnd-str-msg#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "rnd-str-msg": "file:",
+    "user": "^0.0.0"
+  }
+}
